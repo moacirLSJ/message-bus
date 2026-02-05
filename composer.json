@@ -1,0 +1,21 @@
+{
+    "name": "moacir/barramento",
+    "description": "Only trying a POC of implementation of a memory comunication bus",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moacir\\Barramento\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moacir Junior",
+            "email": "skytec.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "scripts": {
+        "dev": "php -S localhost:8000 index.php"
+    }
+}
